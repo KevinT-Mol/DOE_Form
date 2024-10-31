@@ -1,0 +1,277 @@
+/* Menu Header */
+header {
+    top: 0; 
+    left: 0; 
+    right: 0;
+    position: fixed;
+    text-align: center;
+    background-color: #133155;
+    text-decoration: none;
+    overflow: hidden;
+    border: 1px solid;
+    border-bottom: none;
+    height: calc(35px + 2vmin);
+    width: calc(100% + 2vmin);
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+}
+header a {
+    color: white;
+    padding-left: 0%;
+}
+
+/* Logo Images */
+#logo1 {
+    height: calc(20px + 2vmin);
+    padding: 7px;
+    float: left;
+    margin-left: 5px;
+}
+#logo2 {
+    height: calc(20px + 2vmin);
+    padding: 5px;
+    float: right;
+    margin-right: 25px;
+}
+/* _________________________________________________ */
+
+footer {
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    /* position: fixed; */
+    height: calc(35px + 2vmin);
+    background-color:#133155;
+    color: white;
+    padding-top: 0.1px;
+
+}
+/* _________________________________________________ */
+
+layout { 
+    width: 90%;
+    margin: 10px 10px auto;
+    margin-top: 10px;
+    /* text-align: center;  */
+}
+/* _________________________________________________ */
+
+body{
+    margin-top: 10px;
+    /* font-size: 5px; */
+}
+
+/* form Head */
+#titleHead{
+    text-align: center;
+}
+#titleContent{
+    margin: 15px;
+}
+
+/* Form */
+form{
+    margin: 10px;
+    background-color: rgb(231, 229, 229);
+    margin-left: 20%;
+    margin-right: 20%;
+    /* margin-top: 100px; */
+}
+
+/* Sections */
+#sectionHead1, #sectionHead2, #sectionHead3, #sectionHead4{
+    text-align: center;
+    background-color: rgb(146, 144, 144);
+    margin-top: 50px;
+}
+/* _________________________________________________ */
+
+/* Section1 */
+#sectionContent1{
+    display: block;
+    margin-left: 50px;
+    padding: 10px;
+
+}
+#sectionContent1 input{
+    margin-left: 25px;
+    margin-right: 40%;
+    width: 60%;
+    border: 1px solid;
+    float:right;
+    border-radius: 4px;
+    height: 25px;
+}
+/* _________________________________________________ */
+
+/* section 2 */
+#sectionContent2{
+    display: block;
+    margin-left: 50px;
+    padding: 10px;
+}
+#Disclosure-checks{
+    margin-left: 15px;
+    padding-bottom: 10px;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+#checkbox-item{
+    margin-left: 10px;
+}
+#sub-DisclosureA{
+    margin: 15px 25px;
+    margin-right: 80px;
+    border: 1px solid brown;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+#SubDC_input-textbox_A textarea{
+    border-radius: 4px;
+    height: fit-content;
+    width: 60%;
+}
+#comment{
+    margin-top: 20px;
+    border-top: 1px solid brown;
+    font-size: small;
+    font-style: italic;
+}
+#comment div{
+    margin-left: 15px;
+}
+
+#sub-DisclosureB{
+    margin: 15px 25px;
+    margin-right: 80px;
+    border: 1px solid brown;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+#SubDC_input-textbox_B textarea{
+    border-radius: 4px;
+    height: 35px;
+    width: 60%;
+}
+
+#sub-DisclosureC{
+    margin: 15px 25px;
+    margin-right: 80px;
+    border: 1px solid brown;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+#SubDC_input-textbox_C textarea{
+    border-radius: 4px;
+    height: fit-content;
+    width: 60%;
+}
+
+#sub-DisclosureD{
+    margin: 15px 25px;
+    margin-right: 80px;
+    border: 1px solid brown;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+#SubDC_input-textbox_D textarea{
+    border-radius: 4px;
+    height: fit-content;
+    width: 60%;
+}
+
+#sub-DisclosureE{
+    margin: 15px 25px;
+    margin-right: 80px;
+    border: 1px solid brown;
+    padding: 5px;
+    padding-bottom: 30px;
+}
+
+#SubDC_input-textbox_E textarea{
+    border-radius: 4px;
+    height: fit-content;
+    width: 60%;
+}
+/* _________________________________________________ */
+
+/* SECTION 3 */
+#sectionContent3{
+    display: block;
+    margin-left: 50px;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+#Ass_btn_Holder{
+    border:1.5px solid #133155;
+    margin: 30px 35%;
+    padding: 15px 22px;
+    align-items: center;
+    width: 115px;
+    /* border-bottom: black solid; */
+}
+
+.button{
+    border:1.5px solid #133155;
+    color: #133155;
+    padding: 15px 22px;
+    margin-left: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+.button:hover{
+    background-color: #133155;
+    color: white;
+}
+/* _________________________________________________ */
+
+/* SECTION 4 */
+#sectionContent4{
+    display: block;
+    margin-left: 50px;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+#ManagerComent textarea{
+    border-radius: 4px;
+    height: fit-content;
+    width: 60%;
+}
+
+#HOCComent textarea{
+    border-radius: 4px;
+    height: fit-content;
+    width: 60%;
+}
+
+/* _________________________________________________ */
+
+#navbar {
+    background-color: #333;
+    position: fixed; 
+    width: calc(100% + 2vmin); 
+    font-size: calc(1px + 2vmin);
+    transition: top 0s; 
+    top: calc(30px + 2vmin);
+}
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 15px; */
+    padding-inline: calc(15px + 2vmin);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
